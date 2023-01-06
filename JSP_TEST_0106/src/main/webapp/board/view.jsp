@@ -58,12 +58,12 @@
 				String image = fileImageDTO.getFileName();
 				
 				%>
-				<div class="col-md-4">
-				<%-- <img src="C:/JSP_Workspace1/ch18_WebMarket_2/src/main/webapp/resources/board_images/<%= image %>" style="width: 70%"> --%>
+				<%-- <div class="col-md-4">
+				<img src="C:/JSP_Workspace1/ch18_WebMarket_2/src/main/webapp/resources/board_images/<%= image %>" style="width: 70%">
 				<img src="../resources/board_images/<%= image %>" style="width: 70%">
-				<%-- <img src="./resources/images/<%=rs.getString("p_fileName")%>" style="width: 100%"> --%>
+				<img src="./resources/images/<%=rs.getString("p_fileName")%>" style="width: 100%">
 				<%= image %>
-				</div>
+				</div> --%>
 				<%
 				}
 				 %>

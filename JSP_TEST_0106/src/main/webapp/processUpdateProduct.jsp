@@ -34,7 +34,7 @@
 	else
 		stock = Long.valueOf(unitsInStock);
 
-	Enumeration files = multi.getFileNames();
+	Enumeration<?> files = multi.getFileNames();
 	String fname = (String) files.nextElement();
 	String fileName = multi.getFilesystemName(fname);	
 

@@ -27,7 +27,7 @@
 
 <sql:setDataSource var="dataSource"
 	url="jdbc:mysql://localhost:3306/WebMarketDB"
-	driver="com.mysql.jdbc.Driver" user="root" password="1234" />
+	driver="com.mysql.jdbc.Driver" user="root" password="k404" />
 
 <sql:update dataSource="${dataSource}" var="resultSet">
    INSERT INTO member VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)

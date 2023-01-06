@@ -172,12 +172,16 @@ public class BoardController extends HttpServlet {
 
 	// 게시판 글쓰기 로직.
 	// 추가로 이미지를 등록하는 메서드를 따로 분리해서 작업후 , 여기안에 해당 메서드를 호출 할 계획.
+	@SuppressWarnings("unused")
 	public void requestBoardWrite(HttpServletRequest request) {
 
 		
-//		String realFolder = "C:\\upload"; //웹 어플리케이션상의 절대 경로
+        String realFolder = "C:\\upload"; //웹 어플리케이션상의 절대 경로
 		// 해당 프로젝트의 특정 폴더의 위치를 절대경로로 알려줘서 상품 등록시 이미지의 저장경로.
-		String realFolder = "C:\\JSP_Workspace1\\ch18_WebMarket_2\\src\\main\\webapp\\resources\\board_images"; // 웹
+		/*
+		 * String realFolder =
+		 * "C:\\JSP_Workspace1\\ch18_WebMarket_2\\src\\main\\webapp\\resources\\board_images"
+		 */; // 웹
 																												// 어플리케이션상의
 																												// 절대 경로
 		String encType = "utf-8"; // 인코딩 타입
